@@ -206,7 +206,7 @@ class IntroductionScreen extends StatefulWidget {
         ),
         assert(!showDoneButton || (done != null && onDone != null)),
         assert((showSkipButton && skip != null) || !showSkipButton),
-        assert((showNextButton && next != null) || !showNextButton),
+        //assert((showNextButton && next != null) || !showNextButton),
         assert(skipFlex >= 0 && dotsFlex >= 0 && nextFlex >= 0),
         assert(initialPage >= 0),
         super(key: key);
